@@ -102,13 +102,13 @@ function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/kavya-pabboju-643004245/"
-              target="_blank"
-              rel="noreferrer"
-              style={buttonStyle}
-            >
-              <FaLinkedin /> LinkedIn
-            </a>
+  href="/Kavya_Pabboju_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={buttonStyle}
+>
+  <FaDownload /> Resume
+</a>
 
             <a
               href="/Kavya_Pabboju_Resume.pdf"
