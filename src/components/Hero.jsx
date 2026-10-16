@@ -1,5 +1,7 @@
-import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+
+import { FaGithub, FaDownload } from "react-icons/fa";
 import profile from "../assets/kavya.jpg";
+
 const buttonStyle = {
   display: "flex",
   alignItems: "center",
@@ -85,6 +87,7 @@ function Hero() {
             challenges.
           </p>
 
+          {/* Buttons */}
           <div
             style={{
               display: "flex",
@@ -100,15 +103,17 @@ function Hero() {
             >
               <FaGithub /> GitHub
             </a>
+
             <a
               href="/Kavya_Pabboju_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={buttonStyle}
-             >
+            >
               <FaDownload /> Resume
             </a>
-
+          </div>
+        </div>
 
         {/* Right Side */}
         <div
@@ -138,3 +143,4 @@ function Hero() {
 }
 
 export default Hero;
+
