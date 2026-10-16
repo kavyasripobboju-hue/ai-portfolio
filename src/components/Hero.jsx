@@ -101,7 +101,8 @@ function Hero() {
               <FaGithub /> GitHub
             </a>
 
-            <a
+           
+<a
   href="/Kavya_Pabboju_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
@@ -110,15 +111,6 @@ function Hero() {
   <FaDownload /> Resume
 </a>
 
-            <a
-              href="/Kavya_Pabboju_Resume.pdf"
-              download
-              style={buttonStyle}
-            >
-              <FaDownload /> Resume
-            </a>
-          </div>
-        </div>
 
         {/* Right Side */}
         <div
